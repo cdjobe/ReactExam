@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#navbar {
+  margin-bottom: 20px;
+}
+
+.link {
+  margin: 10px;
+}
+
+#required-details, #optional-details {
+  display: inline-block;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+.adopt-btn, h2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.adopt-btn {
+  margin-left: 200px;
+}
+
+.petDetails {
+  width: 600px;
+  margin: 10px auto;
+  border-top: 1px solid black; 
+  padding: 20px;
+}
+
+#skillList {
+  text-align: left;
+  list-style: none;
+}
+.numLikes {
+  margin-left: 50px;
+}
+.petDetails td {
+  text-align: left;
+}
+.like-btn {
+  margin-bottom: 20px;
+}
+
+#homeimg, #thumbsup {
+  margin-right: 5px;
+}
